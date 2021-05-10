@@ -8,7 +8,7 @@ drop database movie;
 create database movie;
 \connect movie
 \i movie-schema.sql
-\i movie-seed.sql
+-- \i movie-seed.sql
 
 \echo 'Delete and recreate movie_test db?'
 \prompt 'Return for yes or control-C to cancel > ' foo
